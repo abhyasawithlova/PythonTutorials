@@ -15,5 +15,6 @@ bj=b"".join([bytearray(b'Hello'), bytearray(b' World')])
 print(type(bj))
 print(*bj)
 print(bj.decode("utf-8"))
+print(str(len(bj)))
 
 

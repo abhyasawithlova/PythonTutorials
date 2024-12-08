@@ -29,5 +29,3 @@ if is_cold:
         print("only carry jackets")
 else:
     print("come with free hands.")
-
-

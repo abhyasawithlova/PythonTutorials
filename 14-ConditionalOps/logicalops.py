@@ -31,9 +31,4 @@ else:
 
 
 
-if n.__le__(35):
-    print("ljljljlk") 
-
-
-
 

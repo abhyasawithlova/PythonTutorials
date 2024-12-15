@@ -80,6 +80,13 @@ CCC
 DD
 E
 """
+print("Pattern 6...")
+n = 5
+a = 65
+for i in range(n, 0, -1): #[5, 4, 3, 2, 1]
+    print(chr(a) * i)
+    a+=1
+
 """
 Pattern 7:
 ABCDE
@@ -88,6 +95,7 @@ ABC
 AB
 A
 """
+# Solution?
 
 """
 Pattern 8:

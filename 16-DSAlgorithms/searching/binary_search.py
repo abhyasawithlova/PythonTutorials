@@ -18,7 +18,8 @@ while l <= r:
 
     # find the mid element.
     m = (l + r) // 2
-    print(f"Mid index: {m}")
+    #print(f"Mid index: {m}")
+    
     # check if k equals to the mid element, then return no more comparisons.
     if a1[m] == k:
         print(f"Found the element at {m}")

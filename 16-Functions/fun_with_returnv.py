@@ -6,7 +6,7 @@ def <functionname>([parameters]) -> return_type:
     return <value>
 """
 
-def is_minor(age):
+def is_minor(age) -> bool:
     print("Checking age is under minor group.")
     flag = age < 18
     return flag

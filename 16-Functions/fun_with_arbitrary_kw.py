@@ -1,5 +1,5 @@
 # Function with Arbitrary keyword, it takes multiple arguement while calling
-# and converts them into list.
+# and converts them into tuple.
 
 def numbers(*argv):
     print(type(argv))

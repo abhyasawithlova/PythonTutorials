@@ -12,6 +12,7 @@ print("Simple Function demo.")
 def greet():
     print("Hello Functions.")
     print("All the best")
+    
 
 #this is how you can invoke funciton by its name.
 greet()

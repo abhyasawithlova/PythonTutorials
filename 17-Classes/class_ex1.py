@@ -8,6 +8,7 @@ class Product:
         __init__() method is called as initialized (constructor).
         used to initialize instance attributes. (id, name, price are instance attributes)
         """
+        print("Instantiating an object.")
         # instance attributes
         self.id = product_id
         self.name = product_name

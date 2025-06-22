@@ -105,7 +105,7 @@ class DLinkedList:
                 prev_node = curr.prev
                 next_node = curr.next
                 prev_node.next = curr.next
-                next_node.prev = prev_node
+                next_node.prev = curr.prev
                 self.size-=1
                 print(f"Delete: {k} found at position {ni}, and deleted, and new size is {self.size}")
                 break
